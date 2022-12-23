@@ -1,22 +1,13 @@
 package com.model;
 
-public class userData {
-    private String name;
-    private String message;
+public class userData extends userForm{
+    private int id;
 
-    public void setName(String name) {
-        this.name = name;
+    public int getId() {
+        return id;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getMessage() {
-        return message;
+    public void setId(int id) {
+        this.id = id;
     }
 }
